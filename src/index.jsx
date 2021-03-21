@@ -42,11 +42,11 @@ class Cj extends Component {
             end = 8
         } else if(sum > 0.9){
             end = 2
-        } else if(sum > 0.85){
+        } else if(sum > 0.75){
             end = 7
-        } else if(sum > 0.67){
+        } else if(sum > 0.6){
             end = 1
-        } else if(sum > 0.5){
+        } else if(sum > 0.4){
             end = 6
         } else{
             end = 5
